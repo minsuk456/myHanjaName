@@ -19,11 +19,11 @@
 한자가 존재하지 않는 한글의 경우 코멘트를 해드립니다. 새로고침 하시면 처음 입력 페이지로 돌아갑니다.   
 
 **메인화면**
-![mainpage](./img/mainpage.jpg)
+![mainpage](./img/mainpage.jpg)  
 **입력예시**
-![inputHong](./img/inputHonggildong.jpg)
+![inputHong](./img/inputHonggildong.jpg)  
 **출력예시**
-![resultHong](./img/resultHonggildong.jpg)
+![resultHong](./img/resultHonggildong.jpg)  
  - 이후 추가될 기능 :
    * 한자들의 음훈까지 입력했을 시 그에 맞는 한자 바로 알려주기
 	* 나열된 한자들의 음훈까지 알려주기
