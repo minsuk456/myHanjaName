@@ -2,8 +2,49 @@
 <html>
 <head>
   <meta charset="UTF-8">
-<h2>내 한자 이름 찾기</h2>
+  <h1 style="font-size: 50px">내 한자 이름 찾기</h1>
+  <script type="text/javascript">
+    var names = [];
+    var korean = ['가',"각","간"];
+    var chinese = ["伽佳假價加可呵哥嘉嫁家暇架枷柯歌珂痂稼苛茄街袈訶賈跏軻迦駕","刻却各恪慤殼珏脚覺角閣","侃刊墾奸姦干幹懇揀杆柬桿澗癎看磵稈竿簡肝艮艱諫間"];
+    function saveName(){
+      var name1 = document.getElementById("inputName1").value;
+      names.push(name1);
+      var name2 = document.getElementById("inputName2").value;
+      names.push(name2);
 
-자신의 한글 이름을 입력해보세요.
+      var name3 = document.getElementById("inputName3").value;
+      names.push(name3);
+      var name4 = document.getElementById("inputName4").value;
+      names.push(name4);
+      var name5 = document.getElementById("inputName5").value;
+      names.push(name5);
+      for(var k=0;k<5;k++){
+        for(var i=0;i<3;i++){
+          if(names[k]==korean[i]){
+            document.write(chinese[i],"<br>");}
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <p style="font-size: 30px">자신의 한글 이름을 입력해보세요.<p>
+  <div>
+    <input type="text" id="inputName1" style="width:100px; height:50px; font-size: 50px">
+  </div>
+  <div>
+    <input type="text" id="inputName2" style="width:100px; height:50px; font-size: 50px">
+  </div>
+  <div>
+    <input type="text" id="inputName3" style="width:100px; height:50px; font-size: 50px">
+  </div>
+  <div>
+    <input type="text" id="inputName4" style="width:100px; height:50px; font-size: 50px">
+  </div>
+  <div>
+    <input type="text" id="inputName5" style="width:100px; height:50px; font-size: 50px">
+  </div>
+  <button onclick="saveName()" style="width:160px; height:50px; font-size: 30px">입력완료</button>
 </body>
 </html>
