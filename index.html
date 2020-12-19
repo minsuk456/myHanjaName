@@ -541,16 +541,16 @@
       for(var k=0;k<names.length;k++){
         for(var i=0;i<korean.length;i++){
           if(names[k]==korean[i]){
-            document.write(names[k] +" : "+ chinese[i],);
+            document.write(names[k].fontsize(30) +" : ".fontsize(30)+ chinese[i].fontsize(30),);
             r = 1;
           }
         }
         if(r==0){
           if(names[k]!=""){
-            document.write(names[k] + "은(는) 한자로 존재하지 않습니다.");
+            document.write(names[k].fontsize(5) + "은(는) 한자로 존재하지 않습니다.".fontsize(5));
           }
         }
-        document.write("<br>");
+        document.write("<br><br>");
         r = 0;
       }
     }
