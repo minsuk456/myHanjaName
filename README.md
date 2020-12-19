@@ -18,12 +18,18 @@
  - **이용방법** : 자신의 한글 이름을 한 글자씩 입력하고 입력완료 버튼을 누르시면 글자에 해당하는 한자들이 나열된 페이지로 넘어갑니다.   
 한자가 존재하지 않는 한글의 경우 코멘트를 해드립니다. 새로고침 하시면 처음 입력 페이지로 돌아갑니다.   
 
-**메인화면**
-![mainpage](./img/mainpage.jpg)  
-**입력예시**
-![inputHong](./img/inputHonggildong.jpg)  
-**출력예시**
-![resultHong](./img/resultHonggildong.jpg)  
+**메인화면**   
+
+![mainpage](./img/mainpage.jpg)   
+
+**입력예시**   
+
+![inputHong](./img/inputHonggildong.jpg)   
+
+**출력예시**    
+
+![resultHong](./img/resultHonggildong.jpg)   
+
  - 이후 추가될 기능 :
    * 한자들의 음훈까지 입력했을 시 그에 맞는 한자 바로 알려주기
 	* 나열된 한자들의 음훈까지 알려주기
