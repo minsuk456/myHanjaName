@@ -546,7 +546,9 @@
           }
         }
         if(r==0){
-          document.write(names[k] + "은(는) 한자로 존재하지 않습니다.");
+          if(names[k]!=""){
+            document.write(names[k] + "은(는) 한자로 존재하지 않습니다.");
+          }
         }
         document.write("<br>");
         r = 0;
@@ -555,21 +557,21 @@
   </script>
 </head>
 <body>
-  <p style="font-size: 30px">자신의 한글 이름을 입력해보세요.<p>
+  <p style="font-size: 30px">자신의 한글 이름을 입력해보세요.<br> <strong>한칸에 한글자씩 입력해주세요.</strong<p>
   <div>
-    <input type="text" id="inputName1" style="width:100px; height:50px; font-size: 50px">
+    <input type="text" id="inputName1" style="width:70px; height:50px; font-size: 50px">
   </div>
   <div>
-    <input type="text" id="inputName2" style="width:100px; height:50px; font-size: 50px">
+    <input type="text" id="inputName2" style="width:70px; height:50px; font-size: 50px">
   </div>
   <div>
-    <input type="text" id="inputName3" style="width:100px; height:50px; font-size: 50px">
+    <input type="text" id="inputName3" style="width:70px; height:50px; font-size: 50px">
   </div>
   <div>
-    <input type="text" id="inputName4" style="width:100px; height:50px; font-size: 50px">
+    <input type="text" id="inputName4" style="width:70px; height:50px; font-size: 50px">
   </div>
   <div>
-    <input type="text" id="inputName5" style="width:100px; height:50px; font-size: 50px">
+    <input type="text" id="inputName5" style="width:70px; height:50px; font-size: 50px">
   </div>
   <button onclick="saveName()" style="width:160px; height:50px; font-size: 30px">입력완료</button>
 </body>
